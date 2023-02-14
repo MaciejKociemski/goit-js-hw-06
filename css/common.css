@@ -23,4 +23,7 @@ button {
   cursor: pointer;
 }
 
-.attention{color:#aaa; font-style: italic;}
+.attention{
+  color:#aaa; 
+  font-style: italic;
+}
