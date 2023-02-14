@@ -1,3 +1,1 @@
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-}
+//Zadanie 10 (nieobowiązkowe)​ probably too difficult at this stage for me
