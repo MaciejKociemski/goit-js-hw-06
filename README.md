@@ -63,6 +63,10 @@ Elements: 3
 Category: Technologies
 Elements: 5
 
+
+
+
+
 Zadanie 2​
 
 W HTML znajduje się pusta lista ul#ingredients.
