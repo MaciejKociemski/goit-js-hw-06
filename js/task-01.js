@@ -1,3 +1,6 @@
+//querySelector - wyszukiwanie elementów//
+
+
 const categoriesRef = document.querySelector("#categories")
 console.log("Number of categories:", categoriesRef.childElementCount)
 
