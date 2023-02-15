@@ -13,18 +13,18 @@ const images = [
   },
 ];
 
-const galleryListEl = document.querySelector("ul");
+const galleryList = document.querySelector("ul");
 const element = images
   .map(function ({ url, alt }) {
     return `<li><img src = '${url}' alt = '${alt}' width="320"></li>`;
   })
   .join(" ");
-galleryListEl.insertAdjacentHTML("afterbegin", element);
+galleryList.insertAdjacentHTML("afterbegin", element);
 
 document.body.style.margin = '10px';
 
 
-galleryListEl.style.cssText = 
+galleryList.style.cssText = 
 `display: flex;
   align-items: center;
   justify-content: center;
