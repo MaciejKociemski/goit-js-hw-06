@@ -1,3 +1,5 @@
+//metoda preventDefault
+
 const formEl = document.querySelector(".login-form");
 
 function checkSubmit(event) {

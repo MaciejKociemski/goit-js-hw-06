@@ -3,11 +3,11 @@ const mySpan = document.querySelector('#name-output');
 
 myInput.addEventListener('input', newInput);
 
-function newInput(e) {
+function newInput(event) {
     //console.log(e.currentTarget);
-    mySpan.textContent = e.currentTarget.value;
+    mySpan.textContent = event.currentTarget.value;
 
-    if (e.currentTarget.value === "") {
+    if (event.currentTarget.value === "") {
         mySpan.textContent = 'Anonymous'
     }
 }

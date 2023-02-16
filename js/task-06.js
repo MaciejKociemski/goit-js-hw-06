@@ -1,3 +1,7 @@
+// zdarzenie blur
+
+//(event) zastąpić (e) 
+
 const myInput = document.querySelector("#validation-input");
 myInput.addEventListener("blur", onBlur);
 function onBlur(e) {
