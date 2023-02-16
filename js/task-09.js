@@ -1,3 +1,5 @@
+//Aby wygenerować losowy kolor użyj funkcji getRandomHexColor
+
 function getRandomHexColor() {
   return `#${Math.floor(Math.random()*16777215).toString(16)}`;
 }
@@ -6,6 +8,6 @@ const changeColorElement = document.querySelector(".change-color");
 const colorElement = document.querySelector(".color");
 changeColorElement.addEventListener("click",changeBgColorRandom);
 function changeBgColorRandom() {
-  bodyElement.style.backgroundColor = `${getRandomHexColor()}`;
-  colorElement.textContent = getRandomHexColor();
+  bodyElement.style.backgroundColor= `${getRandomHexColor()}`;
+  colorElement.textContent=getRandomHexColor();
 }

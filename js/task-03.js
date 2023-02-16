@@ -14,14 +14,17 @@ const images = [
 ];
 
 const galleryList = document.querySelector("ul");
+
 const element = images
   .map(function ({ url, alt }) {
     return `<li><img src = '${url}' alt = '${alt}' width="320"></li>`;
   })
-  .join(" ");
-galleryList.insertAdjacentHTML("afterbegin", element);
+  .join("");
+galleryList.insertAdjacentHTML("beforeend", element);
 
 document.body.style.margin = '10px';
+
+
 
 
 galleryList.style.cssText = 
@@ -29,6 +32,4 @@ galleryList.style.cssText =
   align-items: center;
   justify-content: center;
   list-style-type: none;
-  margin: 10px;
-  padding: 10px;
   `;
