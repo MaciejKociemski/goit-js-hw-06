@@ -13,6 +13,8 @@ const images = [
   },
 ];
 
+
+
 const galleryList = document.querySelector("ul");
 
 const element = images

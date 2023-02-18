@@ -11,3 +11,4 @@ function newInput(event) {
         mySpan.textContent = 'Anonymous'
     }
 }
+
