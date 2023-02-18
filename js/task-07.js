@@ -1,4 +1,3 @@
-
 //zdarzenie input
 
 const input = document.querySelector("#font-size-control");
