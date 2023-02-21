@@ -34,3 +34,6 @@ const destroyBoxes = () => {
 
 createBtn.addEventListener("click", onCreate)
 destroyBtn.addEventListener("click", destroyBoxes)
+
+
+//
