@@ -5,11 +5,11 @@
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
-const query = (selector) => document.querySelector(selector);
-const createBtn = query('[data-create]')
-const destroyBtn = query('[data-destroy]')
-const inputRef = query('input')
-const boxesRef = query('#boxes')
+const qs = (s) => document.querySelector(s);
+const createBtn = qs('[data-create]')
+const destroyBtn = qs('[data-destroy]')
+const inputRef = qs('input')
+const boxesRef = qs('#boxes')
 
 const createBoxes = (amount) => {
   const boxes = []
